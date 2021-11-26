@@ -6,6 +6,6 @@
 5. 异常被你的 catch“吃了”导致@Transactional失效   
 6.  数据库引擎不支持事务
 
-
+需注意当Transactional注解的操作过长时，当访问量过大会导致系统直接卡死，使用`Transactional`时保证最小颗粒。
 
 [原文](https://zhuanlan.zhihu.com/p/145897825)
