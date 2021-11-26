@@ -10,20 +10,20 @@ import util.DateUtil;
  **/
 public class JsonMessage {
     private int status;
-    private Object msg;
+    private Object result;
     private String serverTime;
 
     public JsonMessage(){
     }
 
-    public JsonMessage(int status, Object msg, String serverTime){
+    public JsonMessage(int status, Object result, String serverTime){
         this.status = status;
-        this.msg = msg;
+        this.result = result;
         this.serverTime = serverTime;
     }
 
-    public JsonMessage(int status, Object msg){
-        this(status, msg, DateUtil.getSysDateTimeString());
+    public JsonMessage(int status, Object result){
+        this(status, result, DateUtil.getSysDateTimeString());
     }
 
 
@@ -33,11 +33,11 @@ public class JsonMessage {
     public void setStatus(int status) {
         this.status = status;
     }
-    public Object getMsg() {
-        return msg;
+    public Object getresult() {
+        return result;
     }
-    public void setMsg(Object msg) {
-        this.msg = msg;
+    public void setresult(Object result) {
+        this.result = result;
     }
     public String getServerTime() {
         return serverTime;
@@ -45,5 +45,4 @@ public class JsonMessage {
     public void setServerTime(String serverTime) {
         this.serverTime = serverTime;
     }
-
 }

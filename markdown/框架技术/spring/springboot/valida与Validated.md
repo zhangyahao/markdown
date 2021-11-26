@@ -63,6 +63,14 @@
         
         }
         ```
+4. 需要引入多个jar
+    ```text
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>4.3.1.Final</version> 
+        </dependency>
+    ```
     
    
     
