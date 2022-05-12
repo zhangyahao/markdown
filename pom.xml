@@ -8,8 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>amos-cirs-server</name>
-    <description>Demo project for Spring Boot</description>
+    <name>markdown</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -76,16 +75,16 @@
             <version>3.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.ccdt.tvsibp</groupId>
-            <artifactId>tvsibp-core</artifactId>
-            <version>10.R.01-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ccdt.ott</groupId>
-            <artifactId>portclient</artifactId>
-            <version>1.0.2</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.ccdt.tvsibp</groupId>-->
+<!--            <artifactId>tvsibp-core</artifactId>-->
+<!--            <version>10.R.01-SNAPSHOT</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.ccdt.ott</groupId>-->
+<!--            <artifactId>portclient</artifactId>-->
+<!--            <version>1.0.2</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.apache.thrift</groupId>
             <artifactId>libthrift</artifactId>
