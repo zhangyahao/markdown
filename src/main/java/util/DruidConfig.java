@@ -3,7 +3,7 @@ import com.alibaba.druid.filter.config.ConfigTools;
 /**
  * Druid
  */
-public class DruidConfig {
+public class DruidConfig extends ConfigTools{
     public static void main(String[] args) throws Exception{
         String[] arr = genKeyPair(521);
 
